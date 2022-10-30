@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(111, 22, 162);
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    color: rgb(242, 249, 37);
+    align-items: center;
+    font-style:initial;
+}
