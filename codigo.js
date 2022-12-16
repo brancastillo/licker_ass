@@ -21,11 +21,11 @@ function mostrar()
     diferenciaAnoActual = 0;
 
     do{
-        ndia = parseInt(prompt("Ingrese el dia de su nacimiento."));
+        ndia = parseInt(prompt("Ingrese el dia de su nacimiento en numeros."));
     }while(isNaN(ndia) || ndia < 1 || ndia > 31)
     
     do{
-        nmes = parseInt(prompt("Ingrese el mes de su nacimiento."));
+        nmes = parseInt(prompt("Ingrese el mes de su nacimiento en numeros."));
     }while(isNaN(nmes) || nmes < 1 || nmes > 12)
     
     do{
@@ -33,16 +33,16 @@ function mostrar()
     }while(isNaN(edad) || edad < 0 || edad > 100)
 
     do{
-        bandera = prompt("Los ha cumplido este año?");
+        bandera = prompt("Los ha cumplido este anio? si/no");
         bandera = bandera.toLowerCase();
-    }while(bandera != "si" || bandera != "no")
+    }while(bandera != "si" && bandera != "no")
 
     do{
-        fmes = parseInt(prompt("Ingrese el mes actual."));
+        fmes = parseInt(prompt("Ingrese el mes actual en numeros."));
     }while(isNaN(fmes) || fmes < 1 || fmes > 12)
 
     do{
-        fdia = parseInt(prompt("Ingrese el dia actual."));
+        fdia = parseInt(prompt("Ingrese el dia actual en numeros."));
     }while(isNaN(fdia) || fdia < 1 || fdia > 31)
 
     if(bandera == "si"){
@@ -56,5 +56,5 @@ function mostrar()
     edadEnDias = parseInt(edadEnDias);
     sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
 
-    alert("Felicidades! Usted lleva " + sumaDias + " días en la tierra.");
+    alert("Felicidade$! Usted lleva " + sumaDias + " dia$ en la tierrA.");
 }
