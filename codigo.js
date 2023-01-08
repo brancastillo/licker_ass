@@ -20,32 +20,34 @@ function mostrar()
     fmes  = 0;
     diferenciaAnoActual = 0;
 
-    do{
-        ndia = parseInt(prompt("Ingrese el dia de su nacimiento en numeros."));
-    }while(isNaN(ndia) || ndia < 1 || ndia > 31)
-    
-    do{
-        nmes = parseInt(prompt("Ingrese el mes de su nacimiento en numeros."));
-    }while(isNaN(nmes) || nmes < 1 || nmes > 12)
-    
-    do{
-        edad = parseInt(prompt("Ingrese su edad."));
-    }while(isNaN(edad) || edad < 0 || edad > 100)
+    alert("Ass Licker 💀🤙 x Castill0.666. Derechos Reservados. @2023.")
 
     do{
-        bandera = prompt("Los ha cumplido este anio? si/no");
+        ndia = parseInt(prompt("Ingrese el dia de su nacimiento (01-31)"));
+    }while(ndia < 1 || ndia > 31)
+    
+    do{
+        nmes = parseInt(prompt("Ingrese el mes de su nacimiento (01-12)"));
+    }while(nmes < 1 || nmes > 12)
+    
+    do{
+        edad = parseInt(prompt("Ingrese su edad (0-120)"));
+    }while(edad < 0 || edad > 120)
+
+    do{
+        bandera = prompt("Los ha cumplido este año? (s/n)");
         bandera = bandera.toLowerCase();
-    }while(bandera != "si" && bandera != "no")
+    }while(bandera != "s" && bandera != "n")
 
     do{
-        fmes = parseInt(prompt("Ingrese el mes actual en numeros."));
-    }while(isNaN(fmes) || fmes < 1 || fmes > 12)
+        fmes = parseInt(prompt("Ingrese el mes actual (1-12)"));
+    }while(fmes < 1 || fmes > 12)
 
     do{
-        fdia = parseInt(prompt("Ingrese el dia actual en numeros."));
-    }while(isNaN(fdia) || fdia < 1 || fdia > 31)
+        fdia = parseInt(prompt("Ingrese el dia actual (01-31)"));
+    }while(fdia < 1 || fdia > 31)
 
-    if(bandera == "si"){
+    if(bandera == "s"){
         diferenciaAnoActual = (30- ndia) + ((fmes - nmes - 1) * 30) + fdia;
     }else{
         diferenciaAnoPasado = (30 - ndia) + ((12 - nmes) * 30);
@@ -56,5 +58,8 @@ function mostrar()
     edadEnDias = parseInt(edadEnDias);
     sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
 
-    alert("Felicidade$! Usted lleva " + sumaDias + " dia$ en la tierrA.");
+    alert("Usted lleva " + sumaDias + " dias en la pinche tierra 💀🤙.");
+
+    alert("Bye 💀🤙.");
+
 }
