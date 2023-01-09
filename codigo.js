@@ -20,31 +20,31 @@ function mostrar()
     fmes  = 0;
     diferenciaAnoActual = 0;
 
-    alert("Ass Licker 💀🤙 x Castill0.666. Derechos Reservados. @2023.")
+    alert("Ass Licker💀🤙 calcula cuantos dias llevas en esta perra vida x Castill0.666. Derechos Reservados. @2023.")
 
     do{
-        ndia = parseInt(prompt("Ingrese el dia de su nacimiento (01-31)"));
+        ndia = parseInt(prompt("Ingrese el dia de su nacimiento 👶🏿 (01-31)"));
     }while(ndia < 1 || ndia > 31)
     
     do{
-        nmes = parseInt(prompt("Ingrese el mes de su nacimiento (01-12)"));
+        nmes = parseInt(prompt("Ingrese el mes de su nacimiento 👶🏽 (01-12)"));
     }while(nmes < 1 || nmes > 12)
     
     do{
-        edad = parseInt(prompt("Ingrese su edad (0-120)"));
+        edad = parseInt(prompt("Ingrese su edad 🚶‍♂️ (0-120)"));
     }while(edad < 0 || edad > 120)
 
     do{
-        bandera = prompt("Los ha cumplido este año? (s/n)");
+        bandera = prompt("Los ha cumplido este año? 🎂(s/n)");
         bandera = bandera.toLowerCase();
     }while(bandera != "s" && bandera != "n")
 
     do{
-        fmes = parseInt(prompt("Ingrese el mes actual (1-12)"));
+        fmes = parseInt(prompt("Ingrese el mes actual 🗓 (1-12)"));
     }while(fmes < 1 || fmes > 12)
 
     do{
-        fdia = parseInt(prompt("Ingrese el dia actual (01-31)"));
+        fdia = parseInt(prompt("Ingrese el dia actual 📆 (01-31)"));
     }while(fdia < 1 || fdia > 31)
 
     if(bandera == "s"){
@@ -54,12 +54,16 @@ function mostrar()
         diferenciaAnoActual = fdia + ((fmes - 1) * 30); 
     }
 
-    edadEnDias = edad * 365.256;
-    edadEnDias = parseInt(edadEnDias);
-    sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
+    if(isNaN(ndia) || isNaN(nmes) || isNaN(edad) || isNaN(fmes) || isNaN(fdia)){
+        alert("Ha ingresado datos erroneos 🖕🚫.")
+    }else{
 
-    alert("Usted lleva " + sumaDias + " dias en la pinche tierra 💀🤙.");
+        edadEnDias = edad * 365.256;
+        edadEnDias = parseInt(edadEnDias);
+        sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
 
-    alert("Bye 💀🤙.");
+        
+        alert("Usted lleva " + sumaDias + " dias en la tierra, matese 🧨💀🤙.");
+    }
 
 }
