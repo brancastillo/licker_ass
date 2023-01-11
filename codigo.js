@@ -20,7 +20,7 @@ function mostrar()
     fmes  = 0;
     diferenciaAnoActual = 0;
 
-    alert("Ass Licker 💀🤙 x Castill0.666. Derechos Reservados. @2023.")
+    alert("Ass Licker 💀🤙 Castill0.666. Derechos Reservados. @2023.")
 
     do{
         ndia = parseInt(prompt("Ingrese la fecha de nacimiento 👼🏾"));
@@ -31,20 +31,20 @@ function mostrar()
     }while(nmes < 1 || nmes > 12)
     
     do{
-        edad = parseInt(prompt("Ingrese su edad🚶"));
+        edad = parseInt(prompt("Ingrese su edad 🤬"));
     }while(edad < 0 || edad > 120)
 
     do{
-        bandera = prompt("Los ha cumplido este año? 🎂 (s/n)");
+        bandera = prompt("Los ha cumplido este año? 🥴 (s/n)");
         bandera = bandera.toLowerCase();
     }while(bandera != "s" && bandera != "n")
 
     do{
-        fmes = parseInt(prompt("Ingrese el mes actual 🗓 (1-12)"));
+        fmes = parseInt(prompt("Ingrese el mes actual ✡️(1-12)"));
     }while(fmes < 1 || fmes > 12)
 
     do{
-        fdia = parseInt(prompt("Ingrese el dia actual 📆 (01-31)"));
+        fdia = parseInt(prompt("Ingrese el dia actual 👿(01-31)"));
     }while(fdia < 1 || fdia > 31)
 
     if(bandera == "s"){
