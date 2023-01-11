@@ -20,22 +20,22 @@ function mostrar()
     fmes  = 0;
     diferenciaAnoActual = 0;
 
-    alert("Ass Licker💀🤙 calcula cuantos dias llevas en esta perra vida x Castill0.666. Derechos Reservados. @2023.")
+    alert("Ass Licker 💀🤙 x Castill0.666. Derechos Reservados. @2023.")
 
     do{
-        ndia = parseInt(prompt("Ingrese el dia de su nacimiento 👶🏿 (01-31)"));
+        ndia = parseInt(prompt("Ingrese la fecha de nacimiento 👼🏾"));
     }while(ndia < 1 || ndia > 31)
     
     do{
-        nmes = parseInt(prompt("Ingrese el mes de su nacimiento 👶🏽 (01-12)"));
+        nmes = parseInt(prompt("Ingrese el mes de nacimiento 👼🏽"));
     }while(nmes < 1 || nmes > 12)
     
     do{
-        edad = parseInt(prompt("Ingrese su edad 🚶‍♂️ (0-120)"));
+        edad = parseInt(prompt("Ingrese su edad🚶"));
     }while(edad < 0 || edad > 120)
 
     do{
-        bandera = prompt("Los ha cumplido este año? 🎂(s/n)");
+        bandera = prompt("Los ha cumplido este año? 🎂 (s/n)");
         bandera = bandera.toLowerCase();
     }while(bandera != "s" && bandera != "n")
 
@@ -61,7 +61,6 @@ function mostrar()
         edadEnDias = edad * 365.256;
         edadEnDias = parseInt(edadEnDias);
         sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
-
         
         alert("Usted lleva " + sumaDias + " dias en la tierra, matese 🧨💀🤙.");
     }
