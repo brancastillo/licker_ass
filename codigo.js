@@ -44,7 +44,7 @@ function mostrar()
     }while(fmes < 1 || fmes > 12)
 
     do{
-        fdia = parseInt(prompt("Ingrese el dia actual 👿(01-31)"));
+        fdia = parseInt(prompt("Ingrese el dia actual 🐺(01-31)"));
     }while(fdia < 1 || fdia > 31)
 
     if(bandera == "s"){
@@ -62,7 +62,7 @@ function mostrar()
         edadEnDias = parseInt(edadEnDias);
         sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
         
-        alert("Usted lleva " + sumaDias + " dias en la tierra, matese 🧨💀🤙.");
+        alert("Usted lleva " + sumaDias + " dias en la tierra, matese 🧨💀🤙");
     }
 
 }
