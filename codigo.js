@@ -55,7 +55,7 @@ function mostrar()
     }
 
     if(isNaN(ndia) || isNaN(nmes) || isNaN(edad) || isNaN(fmes) || isNaN(fdia)){
-        alert("Ha ingresado datos erroneos 🖕🚫.")
+        alert("Ha ingresado datos erroneos 🖕🚫")
     }else{
 
         edadEnDias = edad * 365.256;
