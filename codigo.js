@@ -23,7 +23,7 @@ function mostrar()
     alert("Ass Licker 💀🤙 Castill0.666. Derechos Reservados. @2023.")
 
     do{
-        ndia = parseInt(prompt("Ingrese la fecha de nacimiento 👼🏾"));
+        ndia = parseInt(prompt("Ingrese el dia de nacimiento 👼🏾"));
     }while(ndia < 1 || ndia > 31)
     
     do{
