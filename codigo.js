@@ -20,7 +20,7 @@ function mostrar()
     fmes  = 0;
     diferenciaAnoActual = 0;
 
-    alert("Ass Licker 💀🤙 Castill0.666. Derechos Reservados. @2023.")
+    alert("Sacrificial Suicide 💀🤙 Castill0.666. Derechos Reservados. @2023.")
 
     do{
         ndia = parseInt(prompt("Ingrese el dia de nacimiento 👼🏾"));
