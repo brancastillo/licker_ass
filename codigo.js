@@ -47,12 +47,9 @@ function mostrar() {
   }
 
   //outputs
-  if (isNaN(ndia) || isNaN(nmes) || isNaN(edad) || isNaN(fmes) || isNaN(fdia)) {
-    alert("Ha ingresado datos erroneos 🖕🚫");
-  } else {
-    edadEnDias = edad * 365.24189;
-    edadEnDias = Math.ceil(edadEnDias);
-    sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
-    alert("Usted lleva " + sumaDias + " dias en la tierra, matese 🧨💀🤙");
-  }
+
+  edadEnDias = edad * 365.24189;
+  edadEnDias = Math.ceil(edadEnDias);
+  sumaDias = edadEnDias + diferenciaAnoActual + diferenciaAnoPasado;
+  alert("Usted lleva " + sumaDias + " dias en la tierra, matese 🧨💀🤙");
 }
